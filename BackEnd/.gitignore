@@ -1,0 +1,15 @@
+# Banco de dados local
+db.sqlite3
+
+# Pastas de uploads
+/media/
+
+# Ambiente virtual
+venv/
+
+# Arquivos Python compilados
+__pycache__/
+*.pyc
+
+# Arquivos do sistema
+.DS_Store
