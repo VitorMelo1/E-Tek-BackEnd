@@ -28,10 +28,11 @@ def home(request):
     })
 
 urlpatterns = [
-    path('', home),  # rota raiz
+    path('', home),  # Rota raiz para verificar status
     path('admin/', admin.site.urls),
-    path('api/', include('store.urls')),  # rotas da sua API
+    path('api/', include('store.urls')),  # Inclui as rotas do app store
 ]
 
+# Serve arquivos de mídia em ambiente local (útil p/ testes com imagens)
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
