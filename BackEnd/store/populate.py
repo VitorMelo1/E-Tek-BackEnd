@@ -9,31 +9,31 @@ def run():
         {
             "name": "Camera",
             "price": 2999.99,
-            "description": "Camera com alta definição, ideal para criadores de conteúdo e segurança.",
+            "description": "Câmera com alta definição, ideal para criadores de conteúdo e monitoramento.",
             "image": "device_images/Camera.png"
         },
         {
-            "name": "Celeulariphone",
-            "price": 1499.90,
-            "description": "Celeulariphone com alta definição, ideal para criadores de conteúdo.",
+            "name": "Celular iPhone",
+            "price": 4299.90,
+            "description": "Smartphone iPhone com ótimo desempenho e câmeras avançadas.",
             "image": "device_images/CeleularIphone.png"
         },
         {
-            "name": "Celularsamsung",
-            "price": 1499.90,
-            "description": "Celularsamsung com alta definição, ideal para criadores de conteúdo.",
+            "name": "Celular Samsung",
+            "price": 2499.90,
+            "description": "Smartphone Samsung com Android, ideal para o dia a dia.",
             "image": "device_images/CelularSamsung.png"
         },
         {
-            "name": "Ps5",
-            "price": 1499.90,
-            "description": "Ps5 com alta definição, ideal para criadores de conteúdo.",
+            "name": "PS5",
+            "price": 3899.00,
+            "description": "Console de última geração com jogos imersivos e gráficos realistas.",
             "image": "device_images/PS5.png"
         },
         {
-            "name": "Tvsmart",
-            "price": 1499.90,
-            "description": "Tvsmart com alta definição, ideal para criadores de conteúdo.",
+            "name": "TV Smart",
+            "price": 1899.00,
+            "description": "Smart TV com acesso à internet e aplicativos de streaming.",
             "image": "device_images/TvSmart.png"
         }
     ]
