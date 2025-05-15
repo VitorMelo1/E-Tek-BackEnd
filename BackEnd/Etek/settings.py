@@ -39,11 +39,31 @@ MIDDLEWARE = [
 ]
 
 # CORS para frontend no GitHub Pages e local
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
-    "http://127.0.0.1:5173",
-    "https://vitormelo1.github.io",
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^https:\/\/vitormelo1\.github\.io$",
+    r"^http:\/\/localhost:5173$",
+    r"^http:\/\/127\.0\.0\.1:5173$"
 ]
+
+
+
+CORS_ALLOW_HEADERS = [
+    "accept",
+    "accept-encoding",
+    "authorization",
+    "content-type",
+    "dnt",
+    "origin",
+    "user-agent",
+    "x-csrftoken",
+    "x-requested-with",
+]
+
+CORS_ALLOW_ALL_METHODS = True
+
+
+CORS_ALLOW_CREDENTIALS = True
+
 CORS_ALLOW_CREDENTIALS = True
 
 ROOT_URLCONF = 'Etek.urls'
