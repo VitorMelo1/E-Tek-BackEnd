@@ -1,0 +1,1 @@
+web: gunicorn Etek.wsgi:application
